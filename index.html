@@ -5,6 +5,18 @@
 <h1>My First Heading</h1>
 
 <p>My first paragraph.</p>
+  
+<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+<script src="/openseadragon-bin-2.4.0/openseadragon.min.js"></script>
+<script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "/openseadragon/images/",
+        tileSources: {
+        type: 'image',
+        url: 'temple.png'
+    });
+</script>
 
 </body>
 </html>
