@@ -9,8 +9,14 @@ html, body {
     width: 100vw;
     height: 100vh;
     border: none;
-    top: 0%;
-    left: 0%;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    top: 0px;
+    left: 0px;
 }
 
 /* .imgviewer {
