@@ -1,0 +1,14 @@
+html, body {
+    color: #000000;
+}
+#openseadragon1 {
+    width: auto;
+    display: flex;
+    justify-content: stretch;
+    align-self: stretch;
+    align-items: stretch;
+    align-content: stretch;
+}
+div {
+    border: none;
+}
