@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>OpenSeadragon Basic Demo</title>
+  <head>
+    
     <script src="shadesofthedeparted/openseadragon-bin-2.4.0/openseadragon.min.js"></script>
     <script type="text/javascript">
-    <style type="text/css">
-
-      .openseadragon1 {
-          width: 800px;
-          height: 600px;
-      }
-
-    </style>
-</head>
-<body>
-    <div>
-        Simple demo page to show a default OpenSeadragon viewer.
-    </div>
-    <div id="contentDiv" class="openseadragon1"></div>
-    <script type="text/javascript">
-
         var viewer = OpenSeadragon({
-            // debugMode: true,
-            id: "contentDiv",
-            prefixUrl: "shadesofthedeparted/openseadragon-bin-2.4.0/images/",
-            
+            id: "openseadragon1",
+            //prefixUrl: "shadesofthedeparted/openseadragon/images/",
             tileSources: {
             type: 'image',
             url: 'temple.png'
             }
-            showNavigator:true
         });
-
     </script>
+
+  </head>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+  
+<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+
+
 </body>
 </html>
