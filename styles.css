@@ -1,14 +1,12 @@
 html, body {
-    color: #000000;
+    background-color: #000000;
 }
-#openseadragon1 {
-    width: auto;
+
+div {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     align-self: stretch;
     align-items: stretch;
     align-content: stretch;
-}
-div {
     border: none;
 }
