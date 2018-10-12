@@ -8,11 +8,15 @@ html, body {
 .imgviewer {
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    align-content: stretch;
-    align-self: stretch;
-    align-items: stretch;
+    align-content: center;
+    align-self: center;
+    align-items: center;
     justify-self: center;
     border: none;
+    top: 0%;
+    left: 0%;
+    margin: 0%;
+    padding: 0%;
 }
