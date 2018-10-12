@@ -3,6 +3,13 @@ html, body {
 }
 
 .imgviewer {
-    display: block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-self: stretch;
+    align-items: stretch;
+    justify-self: center;
     border: none;
 }
