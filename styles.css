@@ -3,10 +3,8 @@ html, body {
 }
 
 div {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-self: stretch;
     align-items: stretch;
-    align-content: stretch;
     border: none;
 }
