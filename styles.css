@@ -1,9 +1,4 @@
-html {
-    top: 0px;
-    left: 0px;
-}
-
-body {
+html, body {
     /* background-color: #000000; */
     top: 0px;
     left: 0px;
@@ -26,7 +21,7 @@ body {
     padding: 0%;
 } */
 
-div {
+/* div {
     width: 100vw;
     height: 100vh;
     border: none;
@@ -34,4 +29,4 @@ div {
     left: 0%;
     margin: 0%;
     padding: 0%;
-}
+} */
