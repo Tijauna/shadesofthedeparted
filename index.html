@@ -12,20 +12,16 @@
 
 <body>
 
-  <div id="openseadragon1" style="width: 2048px; height: 2048px;">
-    <script>
+  <div id="openseadragon1" style="width: 1024px; height: 1024px;"></div>
+  <script>
+    var viewer = OpenSeadragon({
+      id: "openseadragon1",
+      prefixUrl: "/openseadragon-bin-2.4.0/images/",
+      tileSources: "openseadragon-bin-2.4.0/dzc_output.xml"
+      showNavigationControl: false
+    });
+  </script>
 
-      OpenSeadragon({
-        id: "openseadragon1",
-        prefixUrl: "openseadragon-bin-2.4.0/images",
-        tileSources: {
-          type: 'image',
-          url: 'openseadragon-bin-2.4.0/spooky.png'
-        showNavigationControl: false
-        }
-      });
-    </script>
-  </div>
 </body>
 
 </html>
