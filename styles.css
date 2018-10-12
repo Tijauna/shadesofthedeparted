@@ -2,9 +2,7 @@ html, body {
     background-color: #000000;
 }
 
-div {
-    display: inline-flex;
-    align-self: stretch;
-    align-items: stretch;
+.imgviewer {
+    display: block;
     border: none;
 }
