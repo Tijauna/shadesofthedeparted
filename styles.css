@@ -1,9 +1,10 @@
 html, body {
     background-color: #000000;
+    overflow: hidden;
 }
 
 .imgviewer {
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     display: flex;
     justify-content: center;
