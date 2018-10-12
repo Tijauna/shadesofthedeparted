@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <script src="shadesofthedeparted/openseadragon-bin-2.4.0/openseadragon.min.js"></script>
-    <script type="text/javascript">
-        var viewer = OpenSeadragon({
-            id: "openseadragon1",
-            //prefixUrl: "shadesofthedeparted/openseadragon/images/",
-            tileSources: {
-            type: 'image',
-            url: 'shadesofthedeparted/temple.png'
-            }
-        });
-    </script>
 
-  </head>
+<head>
+  <meta charset="utf-8">
+
+  <title>Shades of The Departed</title>
+  <meta name="description" content="Happy Birthday Crystal!">
+  <meta name="author" content="Daniel Ding">\
+  <script src="openseadragon-bin-2.4.0/openseadragon.min.js"></script>
+</head>
+
 <body>
 
-<h1>My First Heading</h1>
+  <h1>My First Heading</h1>
 
-<p>My first paragraph.</p>
-  
-<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
-  
-<p>My second paragraph.</p>
+  <p>My first paragraph.</p>
 
+  <p>My second paragraph.</p>
+
+  <div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+  <script>
+    var viewer = OpenSeadragon({
+      id: "openseadragon1",
+      // prefixUrl: "/openseadragon/images/",
+      tileSources: "openseadragon-bin-2.4.0/dzc_output.xml"
+    });
+  </script>
 
 </body>
+
 </html>
